@@ -1,0 +1,167 @@
+/*BODY*/
+
+.basis {
+	width: 960px;
+	margin: auto;
+	font-family: Arial, sans-serif;
+}
+
+/*BODY*/
+
+
+/*HEADER */
+
+.roof {
+  	background-color: #e8721e;	
+	padding: 16px 24px;
+	margin-bottom: 24px;	
+}
+
+.logo {
+	float: left;
+	height: 100px;	
+}
+
+.logo-wrapper {
+	display: table-cell;
+	height: 100px;
+	vertical-align: middle;	
+}
+
+.logo-text {	
+	width: 200px;  	
+  	margin: 0 0 0 20px;  	
+  	vertical-align: middle; 		
+}
+
+.logo-pic {
+    float: left;
+    border-radius: 50%;
+    width: 100px;  
+    height: 100px;       
+}
+
+.logo-pic img {
+	border-radius: 50%;
+	background-color: #f4f004; 
+	width: 100px;
+    height: 100px;
+    object-fit: cover;     
+}
+
+/*.list li + li {
+  	margin-right: 24px;
+} */
+
+.list {
+  	float: right;
+  	padding: 0;  
+  	line-height: 66px;
+  /*transform: translateX(50%);  */
+}
+
+.list li {
+  	display: inline;
+  	margin-left: 24px;	
+  	padding: 0;
+	list-style: none;		
+	font-weight: bold;
+	font-size: 18px;	 
+}
+
+.list a {
+	text-decoration: none;
+	color: black;
+}
+
+.list a:hover{
+	color: #FFFFFF;
+}
+
+/*HEADER */
+
+
+
+/* MAIN */
+
+.base {
+	float: left;
+	width: 570px;
+}
+
+.info {	
+	margin-bottom: 24px;
+	background-color: #f4f004;
+	padding: 16px 24px 16px 140px;
+}
+
+.info h2 {
+	margin-top: 0;
+}
+
+.info a {
+	text-decoration: none;
+	color: #035dee;
+}
+
+.info a:hover {
+	color: #FFFFFF;
+}
+
+
+.content-pic {
+	width: 100px;
+	height: 100px;	
+   	margin-left: -116px;
+	float: left;
+}
+
+.content-pic img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
+/* MAIN */
+
+/*ASIDE */
+
+.sidebar {
+	background-color: #0f7a01;
+    padding: 16px 24px 900px 24px;
+    width: 320px;
+    float: right;
+    margin-bottom: 24px;    
+}
+
+.sidebar p {
+	margin-top: 0;
+}
+
+/*ASIDE */
+
+
+/*FOOTER*/
+
+.sitemap {
+	background-color: #a1aab7;
+	padding: 16px 24px;
+}
+
+/*FOOTER*/
+
+
+/* ANOTHER STUFF*/
+
+.foot-clear {
+	clear: both;
+}
+
+.clear::after {
+    content:'';
+    display:block;
+    clear: both;
+}
+
+
+
+

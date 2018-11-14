@@ -1,0 +1,96 @@
+/*HEADER*/
+* {
+	box-sizing: border-box;
+}
+
+
+html {
+	height: 100%;
+}
+
+.modifier {
+	margin: 0;
+	padding: 10px;		
+	height: 100%;	
+}
+
+.basis {
+	min-height: 100%;
+		
+	position: relative;
+	padding: 10px;
+	border: 5px solid red;
+	background-color: green;	
+}
+
+.rectangle-yellow {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	width: 80px;
+	height: 80px;
+	background-color: #fff799;
+}
+
+.rectangle-white {
+	position: absolute;	
+	left: 50%;
+	top: 50%;
+	margin-left: -75px;
+	margin-top: -75px;
+	width: 150px;
+	height: 150px;	
+	background-color: #ffffff;
+	border: 5px solid red;
+}
+
+.rectangle-red {
+	position: absolute;	
+	right: 10px;
+	top: 10px;
+	width: 100px;
+	height: 100px;	
+	background-color: #ab347d;
+}
+
+.rectangle-gray {
+	position: absolute;	
+	right: 0;
+	bottom: 0;
+	width: 150px;
+	height: 150px;	
+	background-color: #959595;
+}
+
+.reactangle-violet {
+	position: absolute;
+	left: 30px;
+	bottom: 30px;
+	width: 40px;
+	height: 40px;	
+	background-color: #8781bd;
+}
+
+.reactangle-brown {
+	position: absolute;
+	left: 30px;
+	bottom: 30px;
+	width: 45px;
+	height: 45px;	
+	background-color: #a0410d;
+}
+
+.mail_block {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(254, 158, 144);
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.25;
+  position: absolute;
+  left: 1496px;
+  top: 1995px;
+  width: 684px;
+  height: 120px;
+  z-index: 296;
+}
