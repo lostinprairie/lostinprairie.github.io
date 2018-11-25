@@ -41,7 +41,7 @@ button {
 }
 
 .basis--spage {
-	background-color: transparent;
+	background-color: #f1f2f2;
 }
 
 .roof {
@@ -97,7 +97,7 @@ button {
 }
 
 .site-btn:hover {	
-	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.75);	
+	background-color: #ed0030;	
 }
 
 .switcher {	
@@ -199,11 +199,11 @@ button {
 
 .film-type {
 	font-size: 18px;
-	margin: 0 0 8px 4px;
+	margin: 0 0 8px 0;
 }
 
 .film-type--spage {
-	margin: 0 0 10px 12px;
+	margin: 0 12px 10px 12px;
 }
 
 .film-container {
@@ -325,6 +325,10 @@ button {
 	display: block;
 }
 
+.genre-block {
+	color: #47c3f0;
+}
+
 .desc-text {
 	font-size: 14px;
 	color: #010101;
@@ -336,7 +340,7 @@ button {
 }
 
 .desc-charact__genre--spage {
-	display: block;
+	display: inline-block;
 	font-size: 14px;
 	margin-bottom: 15px;
 }
@@ -365,6 +369,14 @@ button {
 	width: 25px;
 	height: 24px;
 	background-image: url('images/starg.png');
+}
+
+.rating-stars__item--point:hover::before {
+	content: '';
+	display: block;
+	width: 25px;
+	height: 24px;
+	background-image: url('images/starb.png');
 }
 
 .rating-stars__item + .rating-stars__item {
@@ -690,6 +702,10 @@ button {
 		letter-spacing: 1px;
 	}
 
+	.roof--spage {
+		padding: 16px;
+	}
+
 	.switcher {	
 		display: flex;
 		align-self: end;
@@ -792,6 +808,10 @@ button {
 		border-style: none; 
 	}
 
+	.cont-field:hover {
+		background-color: #f1f2f2;
+	}
+
 	.cont-field+.cont-field {
 		margin-left: 16px;
 	}
@@ -807,6 +827,10 @@ button {
 		border-style: none; 
 		font-size: 24px;
 		color: #ffffff;
+	}
+
+	.cont-btn:hover {
+		background-color: #ed0030;
 	}
 
 	.promo {		
